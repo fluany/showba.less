@@ -1,12 +1,10 @@
-# showba.less
+<img width="300" src="https://github.com/fluany/showba.less/blob/master/showbaless.svg"/>
 
-## Description
+It'll help you write media queries the easy way, plus other interesting functions to make you more productive coding css.
 
-showba.less will help you write media queries the easy way, plus other interesting functions to make you more productive coding css
+## Media query :computer:
 
-## Media query
-
-### .below and .above
+### .below and .above :arrow_up_down:
 
 You can only send a special letter that we reserve with fixed values that we consider appropriate for each modality.                  
 .below will use the value of the last letter and set it to a max-width.                      
@@ -23,7 +21,7 @@ Variables
 
 Detail, you do not pass the letter with the '@' the treatment is done by us.
 
-#### .below
+#### .below :arrow_down:
 
 Example
 ```less
@@ -41,7 +39,7 @@ Result
   }                                          
 }
 ```
-#### .above
+#### .above :arrow_up:
 
 Example
 ```less
@@ -81,7 +79,7 @@ Result
 } 
 ```
 
-### .mobile, .tablet, .desktop, .hd
+### .mobile, .tablet, .desktop, .hd 
 
 We've prepared some media query ranges that we think are right for you.
 You can use one of the functions, only parameter is your style, so you can use our ranges.
@@ -136,7 +134,7 @@ Result
     }                                             
 }
 ```
-## Utils
+## Utils :space_invader:
 
 We have here some functions that can help you to coding faster
 
